@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Config\" />
+    <None Remove="Contracts\" />
+    <None Remove="Domain\" />
+    <None Remove="Infra\" />
+    <None Remove="Infra\Repository\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Config\" />
+    <Folder Include="Contracts\" />
+    <Folder Include="Domain\" />
+    <Folder Include="Infra\" />
+    <Folder Include="Infra\Repository\" />
+  </ItemGroup>
+</Project>
